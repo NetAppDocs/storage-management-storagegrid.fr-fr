@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-discover-storagegrid.html 
 keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
-summary: Découvrez les systèmes StorageGRID dans votre environnement sur site, puis gérez-les directement depuis la console NetApp à l’aide de Grid Manager. 
+summary: Découvrez les systèmes StorageGRID dans votre environnement sur site, puis gérez-les directement depuis la NetApp Console à l’aide de Grid Manager. 
 ---
-= Ajouter des systèmes StorageGRID à la console NetApp
+= Ajouter des systèmes StorageGRID à la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,15 +14,15 @@ summary: Découvrez les systèmes StorageGRID dans votre environnement sur site,
 
 
 [role="lead"]
-Gérez vos systèmes StorageGrid directement depuis la console NetApp à l'aide de Grid Manager.
+Gérez vos systèmes StorageGrid directement depuis la NetApp Console à l'aide de Grid Manager.
 
-.Rôle de console NetApp requis :
-Administrateur de stockage ou spécialiste de la santé du système.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d’accès à la console NetApp ."^]
+.Rôle de NetApp Console requis :
+Administrateur de stockage ou spécialiste de la santé du système.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d’accès à la NetApp Console ."^]
 
 .Avant de commencer
 Vous avez besoin des éléments suivants :
 
-* Un agent de console NetApp utilisant la version 3.9.43 ou ultérieure.  Vous devez disposer du rôle d’administrateur d’organisation pour installer un agent de console.  Si vous ne savez pas si votre organisation dispose d'un agent de console ou si vous avez besoin d'en créer un, contactez votre administrateur de console NetApp . https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["Contactez l'administrateur de votre organisation."^]
+* Un agent de NetApp Console utilisant la version 3.9.43 ou ultérieure.  Vous devez disposer du rôle d’administrateur d’organisation pour installer un agent de console.  Si vous ne savez pas si votre organisation dispose d'un agent de console ou si vous avez besoin d'en créer un, contactez votre administrateur de NetApp Console . https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["Contactez l'administrateur de votre organisation."^]
 * Le nom de domaine ou l'adresse IP du nœud d'administration.
 * Informations d'identification d'administrateur pour le nœud d'administration.
 * Un certificat d’interface de gestion installé sur votre système StorageGRID .
@@ -50,14 +50,14 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 +
 .. Sélectionnez *Approuver le certificat* pour utiliser le certificat.
 +
-La console NetApp affiche un message de réussite et sécurise toutes les communications entre le serveur StorageGRID et l'agent de console en vérifiant le certificat approuvé.
+La NetApp Console affiche un message de réussite et sécurise toutes les communications entre le serveur StorageGRID et l'agent de console en vérifiant le certificat approuvé.
 
 .. Sélectionnez *Annuler* pour mettre fin au processus de découverte sans vérifier le certificat.
 +
 Par exemple, vous pouvez sélectionner *Annuler* si vous recevez un message d’erreur vous informant que le certificat de gestion StorageGRID doit être mis à jour.
 
 +
-Pour mettre à jour un certificat, accédez à votre système StorageGRID , mettez à jour le certificat, puis redémarrez le processus de découverte à partir de la console NetApp .
+Pour mettre à jour un certificat, accédez à votre système StorageGRID , mettez à jour le certificat, puis redémarrez le processus de découverte à partir de la NetApp Console.
 
 
 

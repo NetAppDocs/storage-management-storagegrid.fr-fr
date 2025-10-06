@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-support-registration.html 
 keywords: support registration, register for support, support, nss account, add nss account, 
-summary: 'Avant de pouvoir ouvrir un dossier d"assistance auprès du support technique NetApp , vous devez ajouter un compte de site de support NetApp à la console NetApp , puis vous inscrire au support.' 
+summary: 'Avant de pouvoir ouvrir un dossier d"assistance auprès du support technique NetApp , vous devez ajouter un compte de site de support NetApp à la NetApp Console , puis vous inscrire au support.' 
 ---
 = Inscrivez-vous pour obtenir de l'aide
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'Avant de pouvoir ouvrir un dossier d"assistance auprès du support tec
 
 
 [role="lead"]
-L'enregistrement du support est requis pour bénéficier d'un support technique spécifique à la console NetApp et à ses solutions de stockage et services de données. L'enregistrement du support est également requis pour activer les flux de travail clés pour les systèmes Cloud Volumes ONTAP .
+L'enregistrement du support est requis pour bénéficier d'un support technique spécifique à la NetApp Console et à ses solutions de stockage et services de données. L'enregistrement du support est également requis pour activer les flux de travail clés pour les systèmes Cloud Volumes ONTAP .
 
 L'inscription au support n'active pas la prise en charge NetApp pour un service de fichiers de fournisseur cloud. Pour obtenir une assistance technique relative à un service de fichiers de fournisseur cloud, à son infrastructure ou à toute solution utilisant le service, reportez-vous à « Obtenir de l'aide » dans la documentation de ce produit.
 
@@ -32,7 +32,7 @@ Il s'agit de votre identifiant d'abonnement d'assistance unique pour tout servic
 
 * Enregistrement des numéros de série Cloud Volumes ONTAP associés à un abonnement sur la place de marché de votre fournisseur de cloud (il s'agit de numéros de série 909201xxxxxxxx à 20 chiffres).
 +
-Ces numéros de série sont communément appelés _numéros de série PAYGO_ et sont générés par la console NetApp au moment du déploiement de Cloud Volumes ONTAP .
+Ces numéros de série sont communément appelés _numéros de série PAYGO_ et sont générés par la NetApp Console au moment du déploiement de Cloud Volumes ONTAP .
 
 
 
@@ -40,7 +40,7 @@ L'enregistrement des deux types de numéros de série permet des fonctionnalité
 
 
 
-== Enregistrez la console NetApp pour le support NetApp
+== Enregistrez la NetApp Console pour le support NetApp
 
 Pour vous inscrire au support et activer le droit de support, un utilisateur de votre compte NetApp Console doit associer un compte de site de support NetApp à sa connexion à la console. La manière dont vous vous inscrivez au support NetApp dépend du fait que vous possédez déjà ou non un compte NetApp Support Site (NSS).
 
@@ -132,7 +132,7 @@ Il est nécessaire de fournir votre compte NSS pour que la console puisse télé
 * Mise à niveau du logiciel Cloud Volumes ONTAP vers la dernière version
 
 
-L’association des informations d’identification NSS à votre compte de console NetApp est différente du compte NSS associé à une connexion utilisateur de console.
+L’association des informations d’identification NSS à votre compte de NetApp Console est différente du compte NSS associé à une connexion utilisateur de console.
 
 Ces informations d’identification NSS sont associées à votre ID de compte de console spécifique. Les utilisateurs appartenant à l'organisation Console peuvent accéder à ces informations d'identification depuis *Support > Gestion NSS*.
 

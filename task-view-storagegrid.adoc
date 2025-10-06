@@ -16,8 +16,8 @@ summary: Une fois que vous avez découvert vos systèmes StorageGRID , vous pouv
 [role="lead"]
 Une fois que vous avez découvert vos systèmes StorageGRID , vous pouvez afficher les détails sur la distribution de la capacité et les alertes, nœuds et locataires associés.
 
-.Rôle de console NetApp requis :
-Administrateur de stockage ou spécialiste de la santé du système.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d’accès à la console NetApp ."^]
+.Rôle de NetApp Console requis :
+Administrateur de stockage ou spécialiste de la santé du système.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d’accès à la NetApp Console ."^]
 
 .Étapes
 . Dans le menu de navigation, sélectionnez *Stockage > Gestion*.

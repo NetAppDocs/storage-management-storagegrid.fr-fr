@@ -47,6 +47,6 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 Les fichiers d'avis fournissent des informations sur les droits d'auteur et les licences tiers utilisés dans les logiciels NetApp .
 
-* https://docs.netapp.com/us-en/console-setup-admin/media/notice.pdf["Avis concernant la console NetApp"^]
-* link:media/NOTICE-storageservices.pdf["Avis concernant la gestion de la console NetApp des systèmes StorageGRID"^]
+* https://docs.netapp.com/us-en/console-setup-admin/media/notice.pdf["Avis concernant la NetApp Console"^]
+* link:media/NOTICE-storageservices.pdf["Avis concernant la gestion de la NetApp Console des systèmes StorageGRID"^]
 

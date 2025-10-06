@@ -4,7 +4,7 @@ permalink: task-manage-certificates.html
 keywords: storagegrid, certificate, manage, manage interface certificate, refresh certificate, update certificate 
 summary: Étant donné que les certificats peuvent expirer, vous devrez peut-être parfois consulter le statut ou mettre à jour un certificat. 
 ---
-= Afficher et mettre à jour les certificats StorageGRID dans la console NetApp
+= Afficher et mettre à jour les certificats StorageGRID dans la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,10 +14,10 @@ summary: Étant donné que les certificats peuvent expirer, vous devrez peut-êt
 
 
 [role="lead"]
-Un certificat d'interface de gestion est requis sur votre système StorageGRID avant de découvrir le système à partir de la console NetApp .  Le certificat fournit une connexion sécurisée entre la console et StorageGRID.  Étant donné que les certificats peuvent expirer, vous devrez peut-être parfois consulter le statut ou mettre à jour un certificat.
+Un certificat d'interface de gestion est requis sur votre système StorageGRID avant de découvrir le système à partir de la NetApp Console.  Le certificat fournit une connexion sécurisée entre la console et StorageGRID.  Étant donné que les certificats peuvent expirer, vous devrez peut-être parfois consulter le statut ou mettre à jour un certificat.
 
-.Rôle de console NetApp requis :
-Administrateur de stockagelink:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d’accès à la console NetApp ."^]
+.Rôle de NetApp Console requis :
+Administrateur de stockagelink:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d’accès à la NetApp Console ."^]
 
 
 
@@ -39,11 +39,11 @@ NOTE: Le statut du certificat est actualisé une fois toutes les 24 heures.
 
 == Mettre à jour le certificat de l'interface de gestion
 
-Si l'état de votre certificat d'interface de gestion n'est pas valide ou si vous recevez une notification indiquant que votre certificat a expiré, vous devrez le mettre à jour pour que la console NetApp puisse se connecter à StorageGRID.
+Si l'état de votre certificat d'interface de gestion n'est pas valide ou si vous recevez une notification indiquant que votre certificat a expiré, vous devrez le mettre à jour pour que la NetApp Console puisse se connecter à StorageGRID.
 
 .Étapes
 . Accédez à votre Grid Manager sur site dans StorageGRID et suivez les instructions pour https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Installation d'un certificat d'interface de gestion sur StorageGRID"] .
-. Dans le menu de navigation de la console NetApp , sélectionnez *Stockage > Gestion*.
+. Dans le menu de navigation de la NetApp Console , sélectionnez *Stockage > Gestion*.
 . Sur la page *Systèmes*, sélectionnez le système StorageGRID .
 . Sélectionnez l’icône Plus d’options (cercle avec trois points verticaux).
 +

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-get-help.html 
 keywords: help, ticket, open support case, support, netapp support, technical support, call support, phone number, open ticket, web ticket, open an issue 
-summary: 'NetApp fournit un support pour la console NetApp de différentes manières.  De nombreuses options d"auto-assistance gratuites sont disponibles 24h/24 et 7j/7, telles que des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut une assistance technique à distance via un ticket web.' 
+summary: 'NetApp fournit un support pour la NetApp Console de différentes manières. De nombreuses options d"auto-assistance gratuites sont disponibles 24h/24 et 7j/7, telles que des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut une assistance technique à distance via un ticket web.' 
 ---
 = Obtenir de l'aide
 :allow-uri-read: 
@@ -34,7 +34,7 @@ Ces options sont disponibles gratuitement, 24 heures sur 24, 7 jours sur 7 :
 
 * Documentation
 +
-La documentation de la console NetApp que vous consultez actuellement.
+La documentation de la NetApp Console que vous consultez actuellement.
 
 * https://kb.netapp.com/Cloud/BlueXP["Base de connaissances"^]
 +
@@ -58,7 +58,7 @@ En plus des options d’auto-assistance ci-dessus, vous pouvez travailler avec u
 
 
 .Étapes
-. Dans la console NetApp , sélectionnez *Aide > Support*.
+. Dans la NetApp Console, sélectionnez *Aide > Support*.
 . Sur la page *Ressources*, choisissez l'une des options disponibles sous Support technique :
 +
 .. Sélectionnez *Appelez-nous* si vous souhaitez parler à quelqu'un au téléphone. Vous serez redirigé vers une page sur netapp.com qui répertorie les numéros de téléphone que vous pouvez appeler.
@@ -127,7 +127,7 @@ Consultez les étapes ci-dessous pour plus de détails.
 
 
 .Étapes
-. Dans la console NetApp , sélectionnez *Aide > Support*.
+. Dans la NetApp Console, sélectionnez *Aide > Support*.
 . Sélectionnez *Gestion des cas* et si vous y êtes invité, ajoutez votre compte NSS à la console.
 +
 La page *Gestion des cas* affiche les cas ouverts liés au compte NSS associé à votre compte utilisateur de la console. Il s'agit du même compte NSS qui apparaît en haut de la page *Gestion NSS*.

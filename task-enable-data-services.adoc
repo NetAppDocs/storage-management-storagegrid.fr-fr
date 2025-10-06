@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-enable-data-services.html 
 keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid, tiering 
-summary: Une fois que vous avez découvert un système StorageGRID dans la console NetApp , vous pouvez utiliser les services de données de NetApp pour les sauvegardes, la hiérarchisation des données et la synchronisation des données. 
+summary: Une fois que vous avez découvert un système StorageGRID dans la NetApp Console, vous pouvez utiliser les services de données de NetApp pour les sauvegardes, la hiérarchisation des données et la synchronisation des données. 
 ---
 = Utiliser les services de données NetApp avec StorageGRID
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Une fois que vous avez découvert un système StorageGRID dans la conso
 
 
 [role="lead"]
-Une fois que vous avez découvert un système StorageGRID dans la console NetApp , vous pouvez utiliser les services de données NetApp pour les sauvegardes, la hiérarchisation des données et la synchronisation des données.
+Une fois que vous avez découvert un système StorageGRID dans la NetApp Console, vous pouvez utiliser les services de données NetApp pour les sauvegardes, la hiérarchisation des données et la synchronisation des données.
 
 * Utilisez NetApp Backup and Recovery pour sauvegarder les données de vos systèmes ONTAP sur site vers le stockage d’objets dans vos systèmes NetApp StorageGRID .
 +
