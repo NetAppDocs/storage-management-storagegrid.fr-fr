@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: task-discover-storagegrid.html 
+keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
+summary: Découvrez les systèmes StorageGRID dans votre environnement sur site, puis gérez-les directement depuis la console NetApp à l’aide de Grid Manager. 
+---
+= Ajouter des systèmes StorageGRID à la console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Gérez vos systèmes StorageGrid directement depuis la console NetApp à l'aide de Grid Manager.
+
+.Rôle de console NetApp requis :
+Administrateur de stockage ou spécialiste de la santé du système.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d’accès à la console NetApp ."^]
+
+.Avant de commencer
+Vous avez besoin des éléments suivants :
+
+* Un agent de console NetApp utilisant la version 3.9.43 ou ultérieure.  Vous devez disposer du rôle d’administrateur d’organisation pour installer un agent de console.  Si vous ne savez pas si votre organisation dispose d'un agent de console ou si vous avez besoin d'en créer un, contactez votre administrateur de console NetApp . https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["Contactez l'administrateur de votre organisation."^]
+* Le nom de domaine ou l'adresse IP du nœud d'administration.
+* Informations d'identification d'administrateur pour le nœud d'administration.
+* Un certificat d’interface de gestion installé sur votre système StorageGRID .
++
+https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["En savoir plus sur l'installation d'un certificat d'interface de gestion sur StorageGRID"^]
+
+
+
+.Étapes
+. Dans le menu de navigation, sélectionnez *Stockage > Gestion*.
+. Sélectionnez *Systèmes*.
+. Sélectionnez *Ajouter un système* et sélectionnez *Sur site*.
+. À côté de * StorageGRID*, sélectionnez *Découvrir*.
+. Sur la page _Détails du cluster StorageGRID_ de la console, saisissez le nom de domaine ou l'adresse IP du nœud d'administration, les informations d'identification du nœud, puis sélectionnez *Ajouter*.
+. La console récupère automatiquement le certificat de l'interface de gestion StorageGRID .  Sur la page _Approuver le certificat_, vérifiez les détails du certificat.
+. Pour utiliser un certificat différent, configurez-le d’abord sur votre système StorageGRID .
++
+.. Dans votre système StorageGRID sur site, suivez les instructions : https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Installation d'un certificat d'interface de gestion sur StorageGRID"^] .
+.. Après avoir configuré le certificat dans le système StorageGRID , sélectionnez *Annuler* sur la page _Approuver le certificat_ dans la console.
+.. Sur la page _Détails du cluster StorageGRID_, sélectionnez *Ajouter*.
+
+
+. Vous pouvez également sélectionner *Copier le certificat* pour copier les détails du certificat.  Vous pouvez utiliser les détails du certificat pour effectuer une validation supplémentaire si vous le souhaitez.
+. Effectuez l’une des opérations suivantes :
++
+.. Sélectionnez *Approuver le certificat* pour utiliser le certificat.
++
+La console NetApp affiche un message de réussite et sécurise toutes les communications entre le serveur StorageGRID et l'agent de console en vérifiant le certificat approuvé.
+
+.. Sélectionnez *Annuler* pour mettre fin au processus de découverte sans vérifier le certificat.
++
+Par exemple, vous pouvez sélectionner *Annuler* si vous recevez un message d’erreur vous informant que le certificat de gestion StorageGRID doit être mis à jour.
+
++
+Pour mettre à jour un certificat, accédez à votre système StorageGRID , mettez à jour le certificat, puis redémarrez le processus de découverte à partir de la console NetApp .
+
+
+
+

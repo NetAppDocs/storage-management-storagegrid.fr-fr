@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: reference-known-issues.html 
+keywords: issues, known issues, bugs, errors, storagegrid, storage grid, storagegrid known issues, netapp console known issues 
+summary: Les problèmes connus identifient les problèmes qui pourraient vous empêcher d’utiliser cette version du produit avec succès. 
+---
+= Problèmes connus liés à la gestion de StorageGRID dans la console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Les problèmes connus identifient les problèmes qui pourraient vous empêcher d’utiliser cette version du produit avec succès.
+
+
+
+== Les noms d'affichage mis à jour n'apparaissent pas dans la console NetApp
+
+Si vous utilisez la procédure de changement de nom pour définir un nouveau nom d'affichage pour un site ou une grille, le nouveau nom d'affichage n'est pas reflété dans la console NetApp .  Dans la console NetApp , le système continue d’afficher le nom du système et non le nouveau nom d’affichage.
+
+
+
+== Erreur lors du filtrage des alertes
+
+Lors de l'utilisation de la vue avancée, le filtrage du contenu de la page Alertes entraîne une erreur.
+
+
+
+== Erreur lors de la modification de la connexion à la fédération de grille
+
+Lorsque vous utilisez la vue avancée, vous pouvez rencontrer une erreur de délai d'expiration de passerelle lors de la modification d'une connexion de fédération de grille.

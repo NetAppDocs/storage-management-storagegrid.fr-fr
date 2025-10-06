@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task-enable-data-services.html 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid, tiering 
+summary: Une fois que vous avez découvert un système StorageGRID dans la console NetApp , vous pouvez utiliser les services de données de NetApp pour les sauvegardes, la hiérarchisation des données et la synchronisation des données. 
+---
+= Utiliser les services de données NetApp avec StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Une fois que vous avez découvert un système StorageGRID dans la console NetApp , vous pouvez utiliser les services de données NetApp pour les sauvegardes, la hiérarchisation des données et la synchronisation des données.
+
+* Utilisez NetApp Backup and Recovery pour sauvegarder les données de vos systèmes ONTAP sur site vers le stockage d’objets dans vos systèmes NetApp StorageGRID .
++
+Pour commencer, accédez à la page *Systèmes* et faites glisser et déposez un système ONTAP sur site sur votre système StorageGRID .
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["En savoir plus sur la sauvegarde des données ONTAP sur site vers StorageGRID"^]
+
+* Utilisez NetApp Cloud Tiering pour hiérarchiser automatiquement les données inactives des clusters ONTAP sur site vers StorageGRID.
++
+Pour commencer, accédez à la page *Systèmes* et faites glisser et déposez un système ONTAP sur site sur votre système StorageGRID .
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["En savoir plus sur la hiérarchisation des données des clusters ONTAP sur site vers StorageGRID"^]
+
+* Utilisez NetApp Copy and Sync pour synchroniser les données vers ou depuis un système StorageGRID .
++
+Pour commencer, accédez à la page *Systèmes* et faites glisser et déposez le système source sur le système cible.  StorageGRID peut être soit la source, soit la cible.
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["En savoir plus sur NetApp Copy and Sync"^]
+
+

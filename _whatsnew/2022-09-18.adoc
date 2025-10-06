@@ -1,0 +1,9 @@
+= Prise en charge de StorageGRID
+:allow-uri-read: 
+
+
+
+
+=== Prise en charge de StorageGRID
+
+Vous pouvez désormais découvrir vos systèmes StorageGRID directement depuis BlueXP.  La découverte de StorageGRID vous offre une vue complète des données sur votre multicloud hybride.

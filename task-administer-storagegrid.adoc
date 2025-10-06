@@ -1,0 +1,124 @@
+---
+sidebar: sidebar 
+permalink: task-administer-storagegrid.html 
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
+summary: 'Administrez un système StorageGRID à partir de la console NetApp à l’aide de la vue avancée.  Cette vue vous permet d"utiliser Grid Manager à partir de la console NetApp .' 
+---
+= Administrer StorageGRID à l'aide du gestionnaire de grille dans la console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Administrez un système StorageGRID depuis la console en utilisant la vue avancée.  Cette vue vous permet d'utiliser Grid Manager depuis la console.
+
+.Rôle de console NetApp requis :
+Administrateur de stockage ou spécialiste de la santé du système.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d’accès."^]
+
+
+
+== Configurations prises en charge
+
+Grid Manager est disponible dans la console à partir de StorageGRID 11.8.
+
+
+
+== Limites
+
+Les opérations suivantes du gestionnaire de grille ne sont pas disponibles depuis la console.  Si vous devez effectuer ces opérations, connectez-vous directement au Grid Manager.
+
+[cols="1a,2a"]
+|===
+| Menu du gestionnaire de grille | Opérations non disponibles depuis la console 
+
+
+ a| 
+Utilisateur
+ a| 
+* Lien de déconnexion
+* Lien vers la documentation de l'API
+* Changer le mot de passe
+
+
+
+
+ a| 
+Nœuds
+ a| 
+* Vous ne pouvez pas accéder à SANtricity System Manager à partir de l'onglet Nœuds > SANtricity System Manager.
+* Lors de l'affichage des alertes, vous ne pourrez peut-être pas sélectionner tous les liens dans les actions recommandées.  Par exemple, les liens qui mènent vers des pages Grid Manager non prises en charge ne fonctionneront pas.
+
+
+
+
+ a| 
+Locataires
+ a| 
+Vous ne pouvez pas vous connecter à un compte locataire à partir de l'assistant Créer un locataire ou de la page Locataires.
+
+La console ne prend actuellement pas en charge le gestionnaire de locataires.  Bien que vous puissiez créer de nouveaux comptes locataires à partir de la console, les utilisateurs locataires ne peuvent pas se connecter à leurs comptes à partir de la console.
+
+
+
+ a| 
+ILM
+ a| 
+Lien vers les niveaux de stockage
+
+
+
+ a| 
+Configuration
+ a| 
+* Mots de passe de la grille
+* Classification du trafic > Métriques
+* Paramètres de sécurité > Délai d'inactivité du navigateur
+* Authentification unique
+* Agent SNMP > Fichier MIB pour l'interface BMC
+
+
+
+
+ a| 
+Entretien
+ a| 
+* Paquet de relance
+* Mise à jour du logiciel
+
+
+
+
+ a| 
+Support
+ a| 
+* Topologie de grille
+* Journaux
+* Métriques, y compris tous les liens vers les métriques Prometheus et les tableaux de bord Grafana à partir d'autres emplacements de l'interface utilisateur.
+* Toutes les options pour les alarmes héritées
+* Coût du lien
+* Entités NMS
+
+
+|===
+
+
+== Passer à la vue avancée
+
+Ouvrez un système StorageGRID et sélectionnez l’option d’affichage avancée.
+
+.Étapes
+. Depuis la page *Systèmes*, ouvrez le système StorageGRID .
+. En haut à droite, sélectionnez *Passer à la vue avancée*.
+. Utilisez Grid Manager pour gérer le système StorageGRID .
+. Si nécessaire, sélectionnez Passer à la vue standard pour revenir à la vue standard via la console.
+
+
+
+
+== Obtenez de l'aide avec Grid Manager
+
+Si vous avez besoin d'aide pour utiliser Grid Manager, reportez-vous à https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["Documentation de StorageGRID"^] pour des instructions étape par étape.

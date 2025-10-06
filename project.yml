@@ -1,0 +1,47 @@
+---
+settings:
+  name: StorageGRID
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: fr-fr,us-en,de-de,es-es,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Documentation de StorageGRID
+    url: "/index.html"
+  - title: Notes de version
+    entries:
+    - title: Quoi de neuf
+      url: "/whats-new.html"
+    - title: Problèmes connus
+      url: "/reference-known-issues.html"
+  - title: Commencer
+    entries:
+    - title: Découvrez les systèmes StorageGRID
+      url: "/task-discover-storagegrid.html"
+  - title: Gérer les systèmes StorageGRID
+    entries:
+    - title: Affichez vos systèmes StorageGRID
+      url: "/task-view-storagegrid.html"
+    - title: Afficher et mettre à jour les certificats StorageGRID
+      url: "/task-manage-certificates.html"
+    - title: Administrer StorageGRID à l'aide de la vue avancée
+      url: task-administer-storagegrid.html
+    - title: Utiliser les services de données NetApp avec StorageGRID
+      url: "/task-enable-data-services.html"
+    - title: Supprimer un système
+      url: "/task-remove-storagegrid.html"
+  - title: Connaissances et soutien
+    entries:
+    - title: Inscrivez-vous pour obtenir de l'aide
+      url: "/task-support-registration.html"
+    - title: Obtenir de l'aide
+      url: "/task-get-help.html"
+  - title: Mentions légales
+    url: "/legal-notices.html"
+product-family:
+  name: Storage Management
+  repo: storage-management-family
