@@ -1,9 +1,9 @@
-= Rôles d'accès BlueXP nécessaires
+= Rôles d'accès à la NetApp Console nécessaires
 :allow-uri-read: 
 
 
 
 
-=== Rôles d'accès BlueXP nécessaires
+=== Rôles d'accès à la NetApp Console nécessaires
 
-Vous avez désormais besoin de l'un des rôles d'accès suivants pour afficher, découvrir ou gérer StorageGRID dans BlueXP: *Administrateur d'organisation*, *Administrateur de dossier ou de projet*, *Administrateur de stockage* ou *Spécialiste de l'état du stockage*.link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["Découvrez les rôles d’accès BlueXP ."^]
+Vous devez désormais disposer de l'un des rôles d'accès suivants pour afficher, découvrir ou gérer StorageGRID dans la NetApp Console: *Administrateur d'organisation*, *Administrateur de dossier ou de projet*, *Administrateur de stockage* ou *Spécialiste de l'intégrité du stockage*.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["En savoir plus sur les rôles d’accès à la NetApp Console ."^]

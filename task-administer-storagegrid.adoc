@@ -17,7 +17,7 @@ summary: 'Administrez un système StorageGRID à partir de la NetApp Console à 
 Administrez un système StorageGRID depuis la console en utilisant la vue avancée.  Cette vue vous permet d'utiliser Grid Manager depuis la console.
 
 .Rôle de NetApp Console requis :
-Administrateur de stockage ou spécialiste de la santé du système.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d’accès."^]
+Administrateur de stockage ou spécialiste de la santé du système. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d'accès"^].
 
 
 
@@ -75,7 +75,6 @@ Lien vers les niveaux de stockage
 Configuration
  a| 
 * Mots de passe de la grille
-* Classification du trafic > Métriques
 * Paramètres de sécurité > Délai d'inactivité du navigateur
 * Authentification unique
 * Agent SNMP > Fichier MIB pour l'interface BMC
@@ -96,8 +95,8 @@ Entretien
 Support
  a| 
 * Topologie de grille
-* Journaux
-* Métriques, y compris tous les liens vers les métriques Prometheus et les tableaux de bord Grafana à partir d'autres emplacements de l'interface utilisateur.
+* Collecte des journaux
+* Tous les liens vers les métriques Prometheus et les tableaux de bord Grafana
 * Toutes les options pour les alarmes héritées
 * Coût du lien
 * Entités NMS
@@ -106,15 +105,15 @@ Support
 |===
 
 
-== Passer à la vue avancée
+== Passer à Grid Manager
 
-Ouvrez un système StorageGRID et sélectionnez l’option d’affichage avancée.
+Ouvrez un système StorageGRID et sélectionnez l'option Grid Manager.
 
 .Étapes
 . Depuis la page *Systèmes*, ouvrez le système StorageGRID .
-. En haut à droite, sélectionnez *Passer à la vue avancée*.
+. En haut à droite, sélectionnez *Passer au Gestionnaire de grille*.
 . Utilisez Grid Manager pour gérer le système StorageGRID .
-. Si nécessaire, sélectionnez Passer à la vue standard pour revenir à la vue standard via la console.
+. Si nécessaire, sélectionnez *Retour* pour revenir à l'affichage standard via la console.
 
 
 
