@@ -85,7 +85,6 @@
   <block id="4b233cf02f1889c420108e8345cc0030" category="list-text">Utilisez Grid Manager pour gérer le système StorageGRID .</block>
   <block id="e5e3035b0f7e5a2843ab139092d0b6fa" category="section-title">Obtenez de l'aide avec Grid Manager</block>
   <block id="3778f3873debfe11e2ace6bb6af1e417" category="inline-link">Documentation de StorageGRID</block>
-  <block id="e05b3769a3e17ad902ca3ef85360d7f9" category="paragraph">Si vous avez besoin d'aide pour utiliser Grid Manager, reportez-vous à<block ref="a933c7261fbaa2ef6900890d35e68b11" category="inline-link-rx"></block> pour des instructions étape par étape.</block>
   <block id="d151acbef027ea9883e40b32274c5a04" category="summary">Découvrez les systèmes StorageGRID dans votre environnement sur site, puis gérez-les directement depuis la NetApp Console à l’aide de Grid Manager.</block>
   <block id="c10ae48739661aebcdebc04124762406" category="doc">Ajouter des systèmes StorageGRID à la NetApp Console</block>
   <block id="5034e08cdc3b4865f67cdf020c27269b" category="paragraph">Gérez vos systèmes StorageGrid directement depuis la NetApp Console à l'aide de Grid Manager.</block>
@@ -96,7 +95,6 @@
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">Informations d'identification d'administrateur pour le nœud d'administration.</block>
   <block id="7946381c1469da9982f0ec23675e074e" category="list-text">Un certificat d’interface de gestion installé sur votre système StorageGRID .</block>
   <block id="899334f483a8eb1e661e504ffe749109" category="inline-link">En savoir plus sur l'installation d'un certificat d'interface de gestion sur StorageGRID</block>
-  <block id="29f8a7fdcc1561634392c06486db3526" category="paragraph"><block ref="29f8a7fdcc1561634392c06486db3526" category="inline-link-rx"></block></block>
   <block id="c27deb5ada399336a287848889d2032c" category="list-text">Dans le menu de navigation, sélectionnez *Stockage &gt; Gestion*.</block>
   <block id="a2bbc305e061bf1ea8c419672c377672" category="list-text">Sélectionnez *Systèmes*.</block>
   <block id="5211458073f915c9abf57481c61698ad" category="list-text">Sélectionnez *Ajouter un système* et sélectionnez *Sur site*.</block>
@@ -105,7 +103,6 @@
   <block id="c11467c66c9d20aefade3d8c6a472be6" category="list-text">La console récupère automatiquement le certificat de l'interface de gestion StorageGRID .  Sur la page _Approuver le certificat_, vérifiez les détails du certificat.</block>
   <block id="b7b06656b02cb84d84e7f79e844f69e6" category="list-text">Pour utiliser un certificat différent, configurez-le d’abord sur votre système StorageGRID .</block>
   <block id="fd6ef625f97076ff9598106b60195180" category="inline-link">Installation d'un certificat d'interface de gestion sur StorageGRID</block>
-  <block id="7ca143532806a5c7adafe28564a2076a" category="list-text">Dans votre système StorageGRID sur site, suivez les instructions :<block ref="0cf12816ab392319fa8fa5ca90f97c92" category="inline-link-rx"></block> .</block>
   <block id="9d802d0448e390fa63540342de811f28" category="list-text">Après avoir configuré le certificat dans le système StorageGRID , sélectionnez *Annuler* sur la page _Approuver le certificat_ dans la console.</block>
   <block id="9ae82cb65355b4df3873a1db559ff935" category="list-text">Sur la page _Détails du cluster StorageGRID_, sélectionnez *Ajouter*.</block>
   <block id="f366bb321d887c34c28635516c2e2a3f" category="list-text">Vous pouvez également sélectionner *Copier le certificat* pour copier les détails du certificat.  Vous pouvez utiliser les détails du certificat pour effectuer une validation supplémentaire si vous le souhaitez.</block>
@@ -347,4 +344,7 @@
   <block id="3f4224139b9cbf910de436e966798772" category="list-text">Sélectionnez l'icône « Plus d'options » (cercle avec trois points horizontaux).</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">6 octobre 2025</block>
   <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">7 août 2024</block>
+  <block id="2091f731164c7be0cc441cb14dd7e0fb" category="paragraph">Si vous avez besoin d'aide pour utiliser Grid Manager, consultez<block ref="a5ef9ecfc4cb4075bbcd8c75bedb3b47" category="inline-link-rx"></block> pour des instructions étape par étape.</block>
+  <block id="02e289e09609553bd74d5dda81ecb5e1" category="paragraph"><block ref="02e289e09609553bd74d5dda81ecb5e1" category="inline-link-rx"></block></block>
+  <block id="bc8c7fb093008fb3e0be35efca86b665" category="list-text">Dans votre système StorageGRID sur site, suivez les instructions :<block ref="ccef0a266f4ff51bd9b89e82df562999" category="inline-link-rx"></block>.</block>
 </blocks>

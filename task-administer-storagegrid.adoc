@@ -31,7 +31,7 @@ Grid Manager est disponible dans la console à partir de StorageGRID 11.8.
 
 Les opérations suivantes du gestionnaire de grille ne sont pas disponibles depuis la console.  Si vous devez effectuer ces opérations, connectez-vous directement au Grid Manager.
 
-[cols="1a,2a"]
+[cols="1a,3a"]
 |===
 | Menu du gestionnaire de grille | Opérations non disponibles depuis la console 
 
@@ -120,4 +120,4 @@ Ouvrez un système StorageGRID et sélectionnez l'option Grid Manager.
 
 == Obtenez de l'aide avec Grid Manager
 
-Si vous avez besoin d'aide pour utiliser Grid Manager, reportez-vous à https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["Documentation de StorageGRID"^] pour des instructions étape par étape.
+Si vous avez besoin d'aide pour utiliser Grid Manager, consultez https://docs.netapp.com/us-en/storagegrid/admin/index.html["Documentation de StorageGRID"^] pour des instructions étape par étape.

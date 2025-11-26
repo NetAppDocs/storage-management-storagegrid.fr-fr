@@ -30,7 +30,7 @@ sidebar:
     - title: Afficher et mettre à jour les certificats StorageGRID
       url: "/task-manage-certificates.html"
     - title: Administrer StorageGRID à l'aide de la vue avancée
-      url: task-administer-storagegrid.html
+      url: "/task-administer-storagegrid.html"
     - title: Utiliser les services de données NetApp avec StorageGRID
       url: "/task-enable-data-services.html"
     - title: Supprimer un système
