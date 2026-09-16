@@ -18,10 +18,12 @@ Découvrez les nouveautés concernant la gestion des systèmes StorageGRID dans 
 
 
 
+[[06-october-2025]]
 == 6 octobre 2025
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXP est désormais NetApp Console
 
 La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
@@ -30,20 +32,24 @@ Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp
 
 
 
+[[12-may-2025]]
 == 12 mai 2025
 
 
 
+[[netapp-console-access-roles-needed]]
 === Rôles d'accès à la NetApp Console nécessaires
 
 Vous devez désormais disposer de l'un des rôles d'accès suivants pour afficher, découvrir ou gérer StorageGRID dans la NetApp Console: *Administrateur d'organisation*, *Administrateur de dossier ou de projet*, *Administrateur de stockage* ou *Spécialiste de l'intégrité du stockage*.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["En savoir plus sur les rôles d’accès à la NetApp Console ."^]
 
 
 
+[[07-august-2024]]
 == 7 août 2024
 
 
 
+[[new-advanced-view]]
 === Nouvelle vue avancée
 
 À partir de StorageGRID 11.8, vous pouvez utiliser l'interface familière de Grid Manager pour gérer votre système StorageGRID à partir de BlueXP.
@@ -52,6 +58,7 @@ https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.htm
 
 
 
+[[ability-to-review-and-approve-storagegrid-management-interface-certificate]]
 === Possibilité d'examiner et d'approuver le certificat d'interface de gestion StorageGRID
 
 Vous avez désormais la possibilité de réviser et d’approuver un certificat d’interface de gestion StorageGRID lors de la découverte du système StorageGRID à partir de BlueXP.  Vous pouvez également consulter et approuver le dernier certificat d’interface de gestion StorageGRID sur une grille découverte.
@@ -60,10 +67,12 @@ https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html[
 
 
 
+[[18-september-2022]]
 == 18 septembre 2022
 
 
 
+[[support-for-storagegrid]]
 === Prise en charge de StorageGRID
 
 Vous pouvez désormais découvrir vos systèmes StorageGRID directement depuis BlueXP.  La découverte de StorageGRID vous offre une vue complète des données sur votre multicloud hybride.

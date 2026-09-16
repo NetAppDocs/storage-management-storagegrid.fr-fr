@@ -18,18 +18,21 @@ Les problèmes connus identifient les problèmes qui pourraient vous empêcher d
 
 
 
+[[updated-display-names-dont-appear-in-the-netapp-console]]
 == Les noms d'affichage mis à jour n'apparaissent pas dans la NetApp Console
 
 Si vous utilisez la procédure de changement de nom pour définir un nouveau nom d'affichage pour un site ou une grille, le nouveau nom d'affichage n'est pas reflété dans la NetApp Console.  Dans la NetApp Console, le système continue d’afficher le nom du système et non le nouveau nom d’affichage.
 
 
 
+[[error-when-filtering-alerts]]
 == Erreur lors du filtrage des alertes
 
 Lors de l'utilisation de la vue avancée, le filtrage du contenu de la page Alertes entraîne une erreur.
 
 
 
+[[error-when-editing-grid-federation-connection]]
 == Erreur lors de la modification de la connexion à la fédération de grille
 
 Lorsque vous utilisez la vue avancée, vous pouvez rencontrer une erreur de délai d'expiration de passerelle lors de la modification d'une connexion de fédération de grille.

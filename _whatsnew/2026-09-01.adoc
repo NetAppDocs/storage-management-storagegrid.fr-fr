@@ -1,0 +1,12 @@
+= Prise en charge de StorageGRID 12.1
+:allow-uri-read: 
+
+
+
+
+[[support-for-storagegrid-12-1]]
+=== Prise en charge de StorageGRID 12.1
+
+Vous pouvez désormais gérer votre système StorageGRID 12.1 depuis la NetApp Console.
+
+https://docs.netapp.com/us-en/storage-management-storagegrid/task-administer-storagegrid.html["Découvrez comment administrer StorageGRID à l'aide de la vue avancée dans NetApp Console"].

@@ -4,6 +4,7 @@
 
 
 
+[[netapp-console-access-roles-needed]]
 === Rôles d'accès à la NetApp Console nécessaires
 
 Vous devez désormais disposer de l'un des rôles d'accès suivants pour afficher, découvrir ou gérer StorageGRID dans la NetApp Console: *Administrateur d'organisation*, *Administrateur de dossier ou de projet*, *Administrateur de stockage* ou *Spécialiste de l'intégrité du stockage*.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["En savoir plus sur les rôles d’accès à la NetApp Console ."^]
